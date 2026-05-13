@@ -1,0 +1,43 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Alembic
+alembic/versions/*.pyc
+
+# Node / React
+node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads / temporary
+uploads/
+*.pdf
+!sample_docs/*.pdf
+
+# Logs
+*.log
+celerybeat-schedule
